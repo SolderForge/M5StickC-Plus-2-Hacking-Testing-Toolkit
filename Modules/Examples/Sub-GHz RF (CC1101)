@@ -1,0 +1,42 @@
+The CC1101 is a popular low-power sub-GHz transceiver module used for wireless testing, sniffing, and pentesting in the 315MHz, 433MHz, 868MHz, and 915MHz bands. It’s often used with firmwares like Marauder for analyzing signals from remote controls, sensors, and other RF devices.
+
+Features:
+
+Multi-frequency operation (315/433/868/915 MHz)
+
+Supports various modulation types (FSK, GFSK, ASK, OOK)
+
+SPI interface for microcontroller communication
+
+Low power consumption
+
+Pros:
+
+Widely supported by hacking firmwares like Marauder
+
+Good range and reliability for sub-GHz testing
+
+Easy to interface via SPI
+
+Cons:
+
+Requires SPI wiring, more pins than simple RF modules
+
+Needs 3.3V logic compatibility
+
+Not suitable for Bluetooth or WiFi testing
+
+Installation & Flashing:
+Use the Marauder or Bruce firmware that supports CC1101 modules. Flash the firmware via M5Burner or your preferred method.
+
+Connecting Modules:
+Connect the CC1101 pins to the M5StickC Plus 2 as follows (refer to schematic in /modules/schematics/cc1101.png):
+
+CC1101 Pin	M5StickC Plus 2 Pin (GPIO)
+VCC	           3.3V
+GND      	     GND
+SCK   	       GPIO 18 (SPI Clock)
+MISO  	       GPIO 19 (SPI MISO)
+MOSI  	       GPIO 23 (SPI MOSI)
+CS (NSS)	     GPIO 5 (SPI Chip Select)
+GDO0	         GPIO 26 (Interrupt Pin)
