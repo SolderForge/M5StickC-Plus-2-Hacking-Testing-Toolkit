@@ -1,0 +1,40 @@
+Marauder is a popular open-source WiFi and Bluetooth pentesting firmware designed for compact devices like the M5StickC Plus 2. It provides powerful scanning, monitoring, and attack features with a focus on usability.
+
+Features:
+Comprehensive WiFi network scanning and analysis
+
+Bluetooth device scanning and interaction
+
+Deauthentication and packet injection tools
+
+Support for external modules including IR and RF
+
+Intuitive and responsive user interface
+
+Real-time packet capture and logging
+
+Pros:
+Easy-to-use interface ideal for beginners and pros
+
+Actively developed with frequent feature updates
+
+Compatible with various external modules and hardware
+
+Efficient resource use on M5StickC Plus 2
+
+Cons:
+Advanced features may require additional hardware
+
+Some tools may be limited due to device constraints
+
+Documentation can be sparse in certain areas
+
+Installation & Flashing:
+Flash Marauder using M5Burner or a similar tool by selecting it from the firmware list for your M5StickC Plus 2.
+
+Connecting Modules:
+Marauder supports several external modules. See the modules folder for detailed connection guides.
+
+Useful Links:
+Official Marauder GitHub: https://github.com/rootm0s/Marauder
+
