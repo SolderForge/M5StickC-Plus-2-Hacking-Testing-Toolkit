@@ -1,0 +1,35 @@
+CatHack is an open-source firmware designed primarily for WiFi penetration testing on compact devices like the M5StickC Plus 2. It focuses on providing advanced WiFi scanning, packet injection, and attack capabilities while maintaining an accessible user interface.
+
+Features:
+Advanced WiFi network scanning and analysis
+
+Packet injection and deauthentication attacks
+
+Real-time packet capture and monitoring
+
+Supports external modules for expanded functionality
+
+Lightweight and optimized for M5StickC Plus 2 hardware
+
+Pros:
+Powerful WiFi hacking tools packed in a small device
+
+Regular updates and active developer community
+
+Good balance between features and performance
+
+Suitable for both beginners and experienced pentesters
+
+Cons:
+Some functionality is limited or absent
+
+Documentation can be limited, community-driven support helps
+
+Installation & Flashing:
+Flash CatHack firmware onto your M5StickC Plus 2 using M5Burner or similar flashing tools by selecting CatHack from the available firmware list.
+
+Connecting Modules:
+CatHack supports external modules for expanded capabilities. Check the modules folder for detailed connection and setup guides.
+
+Useful Links:
+Official CatHack GitHub: https://github.com/Stachugit/CatHack
