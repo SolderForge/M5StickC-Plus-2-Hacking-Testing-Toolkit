@@ -1,0 +1,45 @@
+This example shows how to connect a basic 433 MHz RF transmitter and receiver module to the M5StickC Plus 2 for wireless testing and simple signal transmission.
+
+RF modules come in two main types:
+
+Transmitter only (TX) modules: These only send signals. They usually have just power (VCC, GND) and a data input pin. You connect the data pin to your microcontroller’s output GPIO to send data wirelessly.
+
+Receiver only (RX) modules: These only receive signals. They usually have power and a data output pin that you connect to your microcontroller’s input GPIO to read the received signal.
+
+Some modules come as a pair — one TX and one RX — but you can also use just one transmitter or just one receiver depending on your project needs.
+
+So:
+
+If you want to send wireless signals, you only need the TX module connected to your microcontroller.
+
+If you want to receive signals, you only need the RX module connected.
+
+For full two-way communication, you'd need both.
+
+Wiring Overview:
+
+Connect the RF transmitter's VCC to 3.3V (or 5V if your module supports it), GND to ground, and DATA pin to a chosen GPIO pin on the M5StickC (e.g., GPIO 26).
+
+Connect the RF receiver's VCC and GND similarly, and its DATA pin to another GPIO pin (e.g., GPIO 27).
+
+Make sure to connect grounds together to ensure a common reference.
+
+How it works:
+
+The transmitter sends radio frequency signals encoded from the M5StickC Plus 2. The receiver listens on the same frequency and outputs the received data to the M5StickC, allowing you to capture and analyze wireless signals.
+
+Use Cases:
+
+Wireless sensor data reception
+
+Remote control signal sniffing
+
+Basic wireless communication testing
+
+Notes:
+
+Some RF modules require 5V power; be cautious about the M5StickC’s 3.3V logic levels.
+
+Proper antenna connection improves signal range.
+
+For detailed wiring and pin connections, see the schematic image in the schematics folder.
