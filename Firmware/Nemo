@@ -1,0 +1,39 @@
+Nemo is a versatile open-source firmware focused on WiFi and Bluetooth security testing, with powerful tools for scanning, packet capturing, and penetration testing on the M5StickC Plus 2.
+
+Features:
+Advanced WiFi scanning and deauthentication tools
+
+Bluetooth device scanning and spoofing
+
+Packet sniffing and injection capabilities
+
+Support for external modules like IR and RF
+
+User-friendly menu system for easy navigation
+
+Real-time monitoring of wireless signals
+
+Pros:
+Powerful WiFi pentesting tools for a compact device
+
+Good community support and regular updates
+
+Supports a wide range of external hardware extensions
+
+Lightweight and optimized for M5StickC Plus 2
+
+Cons:
+Slightly steeper learning curve for beginners
+
+Limited documentation compared to some other firmwares
+
+Some features require external hardware modules
+
+Installation & Flashing:
+Use M5Burner or compatible flashing tools to find Nemo firmware and flash it on your M5StickC or Plus 2.
+
+Connecting Modules:
+Nemo supports various external modules — see the modules folder in this repo for setup instructions.
+
+Useful Links:
+Official Nemo GitHub: https://github.com/n0xa/m5stick-nemo
