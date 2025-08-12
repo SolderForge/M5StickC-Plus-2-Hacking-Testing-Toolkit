@@ -1,0 +1,36 @@
+This example shows how to wire and use a basic IR (infrared) transmitter module with the M5StickC Plus 2.
+
+Wiring Diagram
+
+Black wire → GND (Ground)
+
+Red wire → 3.3V (Power)
+
+Blue wire → GPIO pin (Data Out)
+
+Note: Wire colors are for clarity and do not affect the way module works.
+
+How It Works
+The IR transmitter sends infrared signals controlled by the M5StickC Plus 2. You can use it to emulate remote controls or send simple IR commands.
+
+Connecting to M5StickC Plus 2
+Module Pin	M5StickC Plus 2 Pin	Wire Color (Example)
+GND 	GND	   Black
+3.3V	3.3V	 Red
+OUT	 GPIO 26 Blue
+
+Adjust GPIO pin as needed for your project.
+
+Basic Usage
+Connect the IR transmitter to your M5StickC Plus 2 following the wiring diagram.
+
+Flash your firmware or script that controls the IR transmitter.
+
+Use the firmware’s IR sending functions to transmit commands.
+
+Tips
+Make sure your transmitter LED is facing the device you want to control.
+
+Check voltage requirements of your IR module — most work on 3.3V but verify your specific part.
+
+Test with a TV remote or other IR receiver to confirm signal transmission.
