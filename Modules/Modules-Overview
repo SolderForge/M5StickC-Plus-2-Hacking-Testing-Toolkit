@@ -1,0 +1,39 @@
+Why Use External Modules?
+The M5StickC Plus 2 is a compact but powerful device. To extend its capabilities—like adding IR communication, RF, sensors, or other interfaces—you often need to connect external modules. These modules usually communicate via simple GPIO pins (digital input/output, PWM, I2C, SPI, UART, etc.).
+
+This guide helps you understand how to physically connect and wire any external module to your M5StickC Plus 2 safely and correctly.
+
+General Wiring Principles
+Power (VCC): Most modules need 3.3V power, which you can supply from the M5StickC Plus 2’s 3.3V pin.
+
+Ground (GND): Connect module ground to the M5StickC Plus 2 ground. All grounds must be common.
+
+Signal Pins: Connect the module’s data or control pins to the appropriate GPIO pins on the M5StickC Plus 2. Refer to your module’s datasheet for pin functions.
+
+Use consistent wire colors for easy tracking, e.g., red for VCC, black for GND, and other colors for signals.
+
+How to Identify Module Pins
+Most simple modules have 3 pins:
+
+Pin	      Function	        Notes
+VCC	    Power supply	Usually 3.3V or 5V
+GND	    Ground	      Must connect to M5StickC GND
+OUT/IN	Signal	      Data or control signal line
+
+Safety Tips
+Check voltage requirements! Don’t power a 5V module directly with 3.3V or vice versa without level shifting.
+
+Use common ground. Connect all grounds together to avoid floating signals.
+
+Avoid short circuits. Double-check connections before powering on.
+
+Next Steps
+Once you know the basics, you can move on to specific examples like:
+
+Connecting an IR transmitter and receiver for remote control projects.
+
+Using an RF module for wireless communication.
+
+Attaching environmental sensors like temperature or humidity.
+
+Controlling motors or servos.
