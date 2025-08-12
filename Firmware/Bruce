@@ -1,0 +1,46 @@
+Bruce is a popular open-source firmware designed for WiFi and Bluetooth testing, hacking, and pentesting on the M5StickC Plus 2 device. It offers a user-friendly interface and supports many useful features for wireless security enthusiasts and developers.
+
+Features:
+WiFi scanning and network analysis
+
+Bluetooth device discovery and interaction
+
+Built-in IR transmitter and receiver control
+
+Support for external modules (IR, RF, etc.)
+
+Customizable interface with easy navigation
+
+Real-time signal monitoring and packet capturing
+
+Pros:
+Simple and clean user interface
+
+Actively maintained with frequent updates
+
+Extensive documentation and community support
+
+Compatible with various external modules and sensors
+
+Low resource usage — runs smoothly on M5StickC Plus 2
+
+Cons:
+Limited advanced hacking tools compared to bigger platforms
+
+Firmware size restricts adding very large features
+
+Installation & Flashing:
+Use the M5Burner to search for Bruce and flash the firmware onto your M5StickC/Plus 2.
+
+Connecting Modules:
+Bruce supports several external modules. You can learn how to do that here on my github.
+
+
+Useful Links:
+Official Bruce Website: https://bruce.computer
+
+
+
+
+
+
