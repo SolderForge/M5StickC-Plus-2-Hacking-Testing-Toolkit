@@ -1,1 +1,66 @@
+This guide will get your M5StickC Plus 2 ready for the first time. We’ll cover installing software, connecting the device, and uploading your first test program.
 
+1. What You Need
+
+Before starting, make sure you have:
+
+M5StickC Plus 2
+
+USB-C cable (for power and data)
+
+Computer with Windows, macOS, or Linux
+
+Why: The USB cable allows your computer to communicate with the M5StickC and upload code.
+
+2. Install Arduino IDE
+
+Download Arduino IDE from https://www.arduino.cc/en/software
+
+Install it normally, following the instructions for your operating system
+
+Why: Arduino IDE is a program that lets you write and upload code to your M5StickC.
+
+3. Install M5StickC Board Support
+
+Open Arduino IDE
+
+Go to File → Preferences
+
+In “Additional Board Manager URLs”, add:
+
+https://raw.githubusercontent.com/m5stack/M5StickC/master/package_m5stack_index.json
+
+
+Go to Tools → Board → Boards Manager
+
+Search for M5StickC and click Install
+
+Why: Arduino IDE needs this to know how to communicate with your M5StickC.
+
+4. Connect Your M5StickC
+
+Plug the USB-C cable into your M5StickC and your computer
+
+In Arduino IDE, go to Tools → Port and select the correct port
+
+Go to Tools → Board and select M5Stick-C Plus
+
+Why: Selecting the correct board and port ensures the code is uploaded to the right device.
+
+
+5. Optional: M5Burner App
+
+For beginners, the M5Burner app can be used to flash firmware quickly:
+
+Download M5Burner from https://m5stack.com/pages/download
+
+Connect your M5StickC via USB
+
+Select your device and choose UIFlow or another firmware
+
+Click Burn
+
+Why: M5Burner is a fast way to install firmware without dealing with Arduino IDE directly.
+
+
+Once your M5StickC is set up, you are ready to explore its features and try example programs.
