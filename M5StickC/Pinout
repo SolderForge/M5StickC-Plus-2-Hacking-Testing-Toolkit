@@ -1,1 +1,23 @@
+The M5StickC Plus 2 is small but versatile. Here’s a breakdown of its pins and what they do.
 
+1. Power Pins
+Pin	Function	              Notes
+GND	Ground	                Connect to the ground of any external device or module. Essential for completing a circuit.
+5V IN	External power input	Use this to power the M5StickC Plus 2 from a 5V source instead of USB or battery.
+5V OUT	Power output	      Can power small external modules or LEDs. Maximum current limited—don’t overload.
+3V3	3.3V output           	Some sensors or modules require 3.3V instead of 5V.
+BAT	Li-Po battery voltage	  Read battery voltage or use it to monitor charge. Do not directly power external devices from BAT.
+2. GPIO Pins
+Pin	Function	Notes
+G36	General purpose / analog input	Can read sensor signals or be used as a digital input/output.
+G25	General purpose	Often used for buttons, LEDs, or small modules. Supports digital input/output.
+G0	General purpose	Can be used for digital input/output or some analog tasks depending on the library.
+3. Quick Tips for Beginners
+
+GND is mandatory: Any external module or LED must share the M5StickC’s ground.
+
+Voltage matters: Only connect 3.3V modules to 3V3, 5V modules to 5V OUT.
+
+Start simple: Test one pin/module at a time. For example, start with an LED on G25 to see how GPIO works.
+
+BAT is read-only for most projects: Use it to check battery level, not to power modules directly.
